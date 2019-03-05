@@ -42,6 +42,7 @@
         }
      .categories-section  {
             height:100vh !important;
+            box-shadow:none !important;
         }
      .projects-section .col { 
 		/*margin: 1% 0 1% 0%;*/
@@ -61,7 +62,8 @@
 	}
     
      .mobile-nav-icon{display:inline-block !important;}
-    .main-nav{
+     #main-nav-style{
+        display:none ;
         float:left !important;
         
         margin-top:0 !important;
@@ -75,15 +77,15 @@
     
     
     
-     .main-nav li{display:block !important;}
-    .main-nav li a:link,
-    .main-nav li a:visited{
+    #main-nav-style li{display:block !important;}
+     #main-nav-style li a:link,
+    #main-nav-style li a:visited{
         display:block !important;
         color:#fff !important;
         border:0!important;
     }
-     .main-nav li .btn-full:link,
-        .main-nav li .btn-full:visited {
+    #main-nav-style li .btn-full:link,
+     #main-nav-style li .btn-full:visited {
            
             background-color: #fff !important;
             border: 1px solid #fff !important;
@@ -126,37 +128,38 @@
         }
 
     .mobile-nav-icon{display:inline-block !important;}
-    .main-nav{
+    
+    #main-nav-style{
         float:left !important;
-        
+        display:none ;
         margin-top:0 !important;
       
         background-color: rgba(0, 0, 0, 1) !important;
     text-align:center !important;
    
-    padding:20px 5px;
+    
     border-radius:6px;
     }
     
     
     
-     .main-nav li{display:block !important;}
-    .main-nav li a:link,
-    .main-nav li a:visited{
+    #main-nav-style li{display:block !important;}
+    #main-nav-style li a:link,
+    #main-nav-style li a:visited{
         display:block !important;
         color:#fff !important;
         border:0!important;
     }
-     .main-nav li .btn-full:link,
-        .main-nav li .btn-full:visited {
+    #main-nav-style li .btn-full:link,
+    #main-nav-style li .btn-full:visited {
            
             background-color: #fff !important;
             border: 1px solid #fff !important;
             padding: 20px 0;
             margin-right: 15px;
         }
-    .main-nav li .btn-full:active,
-        .main-nav li .btn-full:hover {
+        #main-nav-style li .btn-full:active,
+        #main-nav-style li .btn-full:hover {
            
             background-color: #fff !important;
             border: 1px solid #fff !important;

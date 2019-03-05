@@ -166,8 +166,8 @@
             color: #000;
         }
 
-        .main-nav li .btn-full:link,
-        .main-nav li .btn-full:visited {
+        #main-nav-style li .btn-full:link,
+        #main-nav-style li .btn-full:visited {
             height: 200%;
             width: 100%;
             color: #fff;
@@ -177,15 +177,15 @@
             margin-right: 15px;
         }
 
-        .main-nav li .fa-angle-down {
+        #main-nav-style li .fa-angle-down {
             margin-left: 6px;
         }
 
-        .main-nav li .btn-full i {
+        #main-nav-style li .btn-full i {
             margin-right: 6px;
         }
 
-        .main-nav li .fa-user {
+        #main-nav-style li .fa-user {
             margin-left: 7px;
         }
 
@@ -196,8 +196,8 @@
             font-size: 150%;
         }
 
-        .main-nav li .btn-full:hover,
-        .main-nav li .btn-full:active {
+        #main-nav-style li .btn-full:hover,
+        #main-nav-style li .btn-full:active {
             background-color: #fff;
             color: #000;
             border: 1px solid #fff;
@@ -229,19 +229,19 @@
             margin-top: -8px;
         }
 
-        .main-nav {
+        #main-nav-style {
             float: right;
             list-style: none;
             margin-top: 55px;
         }
 
-        .main-nav li {
+        #main-nav-style li {
             display: inline-block;
             margin-left: 20px;
         }
 
-        .main-nav li a:link,
-        .main-nav li a:visited {
+        #main-nav-style li a:link,
+        #main-nav-style li a:visited {
             color: #000;
             text-transform: uppercase;
             font-size: 90%;
@@ -252,8 +252,8 @@
 
         }
 
-        .main-nav li a:hover,
-        .main-nav li a:active {
+        #main-nav-style li a:hover,
+        #main-nav-style li a:active {
             border-bottom: 2px solid #000;
             border-top: 2px solid #000;
         }
@@ -288,7 +288,32 @@
             font-weight: 500;
             transform: translate(-50%, -50%);
         }
-
+        /*animation in projects section*/
+        @-webkit-keyframes hvr-pulse-shrink {
+            to {
+              -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+            }
+          }
+          @keyframes hvr-pulse-shrink {
+            to {
+              -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+            }
+          }
+          .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+            -webkit-animation-name: hvr-pulse-shrink;
+            animation-name: hvr-pulse-shrink;
+            -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+          }
+         
 
         /*---------------------------------------------------------------------------------------*/
         /*categories*/
@@ -337,7 +362,7 @@
         /*---------------------------------------------------------------------------------------*/
         /*projects*/
         /*---------------------------------------------------------------------------------------*/
-        . .projects-section {
+         .projects-section {
 
             color: #000;
 
