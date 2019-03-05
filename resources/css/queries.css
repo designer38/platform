@@ -1,0 +1,190 @@
+
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1439px){
+    
+      .categories-section  {
+            height:75vh !important;
+        }
+    
+}
+
+
+
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1200px){
+    .hero-text-box {
+            
+            width: 50%;
+        padding:0 2%;
+
+            
+        }
+    .row{padding:0 2%;}
+     header .hero-text-box {
+           font-size:42%;
+        }
+      .categories-section  {
+            height:100vh !important;
+        }
+    
+}
+
+
+
+
+
+/*small tablets to big tablet from 768 to 1023*/
+@media only screen and (max-width:1023px){
+    body{font-size:18px !important;}
+    section{padding:60px 0;}
+    .categories-section h3 {
+            font-size:90%;
+        }
+     .categories-section  {
+            height:100vh !important;
+        }
+     .projects-section .col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 3px 1px !important;
+        width:50%;
+         float: left;
+	}
+    .projects-section .span-1-of-4{
+        width: 49.2% !important;
+    }
+     .projects-section .row { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0 !important;
+         width:100% !important;
+         max-width:100% !important;
+        
+	}
+    
+     .mobile-nav-icon{display:inline-block !important;}
+    .main-nav{
+        float:left !important;
+        
+        margin-top:0 !important;
+      
+        background-color: rgba(0, 0, 0, 1) !important;
+    text-align:center !important;
+   
+    padding:20px 10px;
+    border-radius:6px;
+    }
+    
+    
+    
+     .main-nav li{display:block !important;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display:block !important;
+        color:#fff !important;
+        border:0!important;
+    }
+     .main-nav li .btn-full:link,
+        .main-nav li .btn-full:visited {
+           
+            background-color: #fff !important;
+            border: 1px solid #fff !important;
+            padding: 20px 0;
+            margin-right: 15px;
+            color:#000 !important;
+        }
+}
+
+
+
+
+/*small phones to small tablets from 481 to 767*/
+@media only screen and (max-width:767px){
+    body{font-size:15px !important;}
+     .categories-section h3 {
+            font-size:80%;
+         
+        }
+   
+    .counters-section .counter p{
+        font-size:120%;
+                                }
+    .projects-section .project-box {
+            width: 481px;
+            max-width:767px;
+                                }
+    .col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin: 0;
+        width:100%;
+	   }
+    .categories-section {
+           box-shadow:none !important;
+            
+        }
+    .logo{
+             height:88px;
+            width:50px;;
+        }
+
+    .mobile-nav-icon{display:inline-block !important;}
+    .main-nav{
+        float:left !important;
+        
+        margin-top:0 !important;
+      
+        background-color: rgba(0, 0, 0, 1) !important;
+    text-align:center !important;
+   
+    padding:20px 5px;
+    border-radius:6px;
+    }
+    
+    
+    
+     .main-nav li{display:block !important;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display:block !important;
+        color:#fff !important;
+        border:0!important;
+    }
+     .main-nav li .btn-full:link,
+        .main-nav li .btn-full:visited {
+           
+            background-color: #fff !important;
+            border: 1px solid #fff !important;
+            padding: 20px 0;
+            margin-right: 15px;
+        }
+    .main-nav li .btn-full:active,
+        .main-nav li .btn-full:hover {
+           
+            background-color: #fff !important;
+            border: 1px solid #fff !important;
+            color:#000 !important;
+        }
+    .footer-section .middle-side{
+    padding-left:0 !important;
+}
+}
+
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+    body{font-size:13px !important;}
+    .projects-section .col { 
+		/*margin: 1% 0 1% 0%;*/
+        margin:0;
+        width:100%;
+	}
+/*
+    .hero-text-box {
+           z-index:-1 !important;
+        }
+*/
+    .footer-section .middle-side{
+    padding-left:0 !important;
+}
+   
+}
